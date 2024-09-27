@@ -1,0 +1,60 @@
+<!-- Ini bukan tag HTML, tetapi informasi untuk browser tentang jenis dokumen yang diharapkan -->
+<!DOCTYPE html>
+<!-- <html> adalah tag yang harus dideklarasikan untuk menjadi HTML-->
+<html lang="en">
+<!-- <head> adalah bagian atas sebelum memasukkin ke isi konten utama atau suatu metadata ditempatkan di antara <html> dan <body>. -->
+<head>
+    <!-- <meta> mendefinsikan metadata tentang dokumen HTML -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title> merupakan penamaan pada bagian tab browser -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1> merupakan salah satu dari 6 tag yang tersedia dengan konsep yang sama, yaitu digunakan seberapa penting yang ingin disorotkan informasi yang harus diketahui oleh pembaca. Semakin angka pada header makin kecil, maka ukuran teksnya semakin besar. -->
+    <h1>Profil Saya</h1>
+    <!-- <a> adalah hyperlink untuk digunakan menuju ke halaman lainnya dan bisa digunakan untuk teks dan gambar -->
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="fotoawak.jpg" width="300px" height="300px" alt="Aduhh, harusnya ada foto ini!"></a>
+    <p><h2>Aloha, guys!</h2></p>
+    <!-- <p> adalah tag paragraf untuk digunakan sebagai (biasanya) pajangan -->
+    <p>Halo semua, perkenalkan nama saya Rizqi Bhamaryuda</p>
+
+    <!--  <tabel> ini digunakan untuk memulai membuat tabel di dalam tag tabel ini karena jika tidak digunakan, maka ia tidak akan bisa digunakan -->
+
+    <table>
+        <!-- <tr> yaitu Tabel Row digunakan untuk menandakan bahwa pada bagian di dalam tagnya akan diisi yang sejajar atau horizontal-->
+        <tr> 
+            <!-- <th> yaitu Tabel Header digunakan untuk menjadikan sebagai informasinya menjadi tegas atau penting atau semacamnya dengan ditandai dengan teks di dalamnya akan menjadi tebal/bold (harus dipakai di dalam tag tabel, jika tidak, ia tidak akan berfungsi) -->
+            <th align="left" width="200px">Nama Lengkap:</th>
+            <!-- <td> yaitu Tabel Data adalah isi informasi atau data dari tabel. Ini bisa menjadikan sebagai keterangan dari tag <th> (harus dipakai di dalam tag tabel, jika tidak, ia tidak akan berfungsi) -->
+            <td>Rizqi Bhamaryuda</td>
+        </tr>
+        <tr>
+            <th align="left">Tempat Tinggal:</th>
+            <td>Bojongsantos</td>
+        </tr>
+        <tr></tr>
+            <th align="left">Pendidikan:</th>
+            <td>Insitut Teknologi Bojongsoang</td>
+        </tr>
+    </table>
+
+    <p>Ingin mengenal saya lebih dekat? Gaskan nonton video ini, yaw!</p>
+    <!-- tag video digunakan untuk menampilkan video -->
+    <video controls src="videoawak.mp4"></video>
+
+    <p>Ingin menghubungi saya? <div>Silakan isi form ini, ya!</div></p>
+    <!-- <form> adalah tag formulir yang digunakan mengisi -->
+    <form action="">
+        <!-- <label> digunakan untuk menandakan dengan fungsi tertentu dan tempatnya dan biasanya digunakan untuk menandakan keterangan sebelum formulir (apapun) yang akan diisi. -->
+        <label for="nama">Nama: </label><br>
+        <!-- <input> digunakan sebagai inputan yang akan diisikan oleh user. -->
+        <input type="text"> <br>
+        <label for="text">Ada keperluan apa? </label> <br>
+        <!-- <textarea> digunakan untuk teks yang panjang jika user ingin memasukkan informasi yang banyak dengan keunggulan user bisa mengatur panjang lebarnya teks yang diisinya. -->
+        <textarea name="" id="">Jadi, anu...</textarea>
+        <!-- <button> digunakan sebagai tombol dengan berbagai fungsi yang sesuai. -->
+        <button type="button" onclick="alert('Ingfo diterima!')">Submit</button>
+    </form>
+</body>
+</html>
